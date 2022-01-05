@@ -1,0 +1,38 @@
+Raspbian OS Download
+https://www.raspberrypi.org/software/
+
+Files to Add to Boot Drive (File #1 to Setup Wifi on Boot)
+https://storage.googleapis.com/market...
+
+SSH (File #2 Enable SSH Connection )
+https://storage.googleapis.com/market...
+
+Real VNC Viewer
+https://www.realvnc.com/en/connect/do...
+
+Commands
+
+SSH
+ssh pi@raspberrypi
+
+Ping
+ping raspberrypi
+
+Dig
+dig raspberrypi
+
+Update OS
+sudo su -
+apt-get update
+apt-get upgrade
+
+Reboot OS
+sudo reboot
+
+Modify Configuration
+raspi-config
+
+
+
+download resbery pi image installer in the currnet directory write and eject reinsert the memory card in the pc/laptop and copy wpa* and ssh (which is empty ssh and wpa* add wpa_name and password )> in memorycard  boot directory done(nmap 192.168.29.0/24 )pi is default user to find ip ssh pi@<ip> password:raspberry done 
+do sudo su - >update>  and upgrade>  vnc viewer(gui) and raspi-config(forn on the vnc viewer and connect ) dig <username> or pi(default)     
